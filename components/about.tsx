@@ -24,7 +24,7 @@ export function About() {
 
         <div className="space-y-5">
           <p className="text-lg leading-relaxed text-muted-foreground">
-            {"I'm Abdulrahman Famuyon, a website designer with hands-on experience building e-commerce stores and managing WordPress sites for lifestyle brands. I care about the details that matter\u2014clean layouts, intuitive navigation, and designs that make people trust your brand the moment they land on the page. Whether you need an online store that converts or a brand website that tells your story, I bring the vision, the strategy, and the execution to make it happen."}
+            {"I'm Abdulrahman Famuyon, a website designer with hands-on experience building e-commerce stores and managing WordPress sites for lifestyle brands. I care about the details that matter, clean layouts, intuitive navigation, and designs that make people trust your brand the moment they land on the page. Whether you need an online store that converts or a brand website that tells your story, I bring the vision, the strategy, and the execution to make it happen."}
           </p>
           <div className="flex flex-wrap gap-3 pt-2">
             {["Shopify", "WordPress"].map(
