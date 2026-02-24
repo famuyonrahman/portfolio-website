@@ -49,7 +49,7 @@ export function Projects() {
           </h2>
         </div>
 
-        <div ref={gridRef} className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div ref={gridRef} className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, i) => (
             <article
               key={project.title}
@@ -74,9 +74,9 @@ export function Projects() {
                   rel="noopener noreferrer"
                   className="absolute inset-0 flex items-center justify-center bg-background/0 transition-all duration-500 group-hover:bg-background/70"
                 >
-                  <span className="flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground opacity-0 transition-all duration-500 translate-y-4 group-hover:translate-y-0 group-hover:opacity-100">
+                  <span className="group/btn relative flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground opacity-0 transition-all duration-500 translate-y-4 group-hover:translate-y-0 group-hover:opacity-100 hover:shadow-[0_0_20px_rgba(59,130,246,0.5)]">
                     View Project
-                    <ArrowUpRight className="h-4 w-4" />
+                    <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1" />
                   </span>
                 </a>
               </div>

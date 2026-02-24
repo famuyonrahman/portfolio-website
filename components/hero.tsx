@@ -16,11 +16,11 @@ export function Hero() {
         aria-hidden="true"
       />
 
-      <h1 className="animate-fade-in opacity-0 mx-auto max-w-4xl font-mono text-5xl font-bold tracking-tight text-foreground md:text-7xl lg:text-8xl">
+      <h1 className="animate-fade-in opacity-0 mx-auto max-w-4xl font-mono text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
         Abdulrahman Famuyon
       </h1>
 
-      <p className="mx-auto mt-6 max-w-3xl font-mono text-xl leading-relaxed text-muted-foreground md:text-2xl lg:text-3xl">
+      <p className="mx-auto mt-6 max-w-3xl font-mono text-lg leading-relaxed text-muted-foreground sm:text-xl md:text-2xl lg:text-3xl">
         {displayedText}
         {!isComplete && (
           <span

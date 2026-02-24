@@ -9,7 +9,7 @@ export function About() {
     <section id="about" className="py-28 px-6">
       <div
         ref={ref}
-        className={`mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-2 transition-all duration-700 ${
+        className={`mx-auto grid max-w-6xl items-center gap-12 sm:grid-cols-2 lg:grid-cols-2 transition-all duration-700 ${
           isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
         }`}
       >

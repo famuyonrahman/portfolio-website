@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter, Space_Grotesk } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { Cursor } from '@/components/cursor'
+import { Loader } from '@/components/loader'
 import './globals.css'
 
 const _inter = Inter({
@@ -35,6 +37,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${_inter.variable} ${_spaceGrotesk.variable}`} suppressHydrationWarning>
       <body className="font-sans antialiased" suppressHydrationWarning>
+        <Loader />
+        <Cursor />
         {children}
         <Analytics />
       </body>

@@ -87,6 +87,17 @@
   body {
     @apply bg-background text-foreground;
     scroll-behavior: smooth;
+    cursor: none;
+  }
+  
+  /* Ensure interactive elements work properly with custom cursor */
+  a, button, [role="button"], input, textarea, select {
+    cursor: pointer;
+  }
+  
+  /* Hide cursor on the custom cursor element itself */
+  .cursor-dot, .cursor-ring {
+    pointer-events: none;
   }
 }
 
