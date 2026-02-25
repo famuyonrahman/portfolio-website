@@ -40,7 +40,7 @@ export function Services() {
           <p className="mb-3 text-sm font-medium uppercase tracking-widest text-primary">
             How I Can Help
           </p>
-          <h2 className="font-mono text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-foreground md:text-4xl">
             Design That Works as Hard as You Do
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
@@ -61,7 +61,7 @@ export function Services() {
               <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors group-hover:bg-primary/20">
                 <service.icon className="h-6 w-6" />
               </div>
-              <h3 className="mb-3 font-mono text-lg font-semibold text-foreground">
+              <h3 className="mb-3 text-lg font-semibold text-foreground">
                 {service.title}
               </h3>
               <p className="text-sm leading-relaxed text-muted-foreground">

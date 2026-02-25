@@ -16,11 +16,17 @@ export function Hero() {
         aria-hidden="true"
       />
 
-      <h1 className="animate-fade-in opacity-0 mx-auto max-w-4xl font-mono text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
+      <h1 
+        className="hero-fade-slide-up mx-auto max-w-4xl text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl"
+        style={{ animationDelay: "0s" }}
+      >
         Abdulrahman Famuyon
       </h1>
 
-      <p className="mx-auto mt-6 max-w-3xl font-mono text-lg leading-relaxed text-muted-foreground sm:text-xl md:text-2xl lg:text-3xl">
+      <p 
+        className="hero-fade-slide-up mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-muted-foreground sm:text-xl md:text-2xl lg:text-3xl" 
+        style={{ animationDelay: "0.3s" }}
+      >
         {displayedText}
         {!isComplete && (
           <span
@@ -31,17 +37,15 @@ export function Hero() {
       </p>
 
       <p
-        className={`mt-5 text-sm tracking-wide text-muted-foreground/70 transition-all duration-700 ${
-          isComplete ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
-        }`}
+        className="hero-fade-slide-up mt-5 text-sm tracking-wide text-muted-foreground/70"
+        style={{ animationDelay: "0.5s" }}
       >
         Website Designer &middot; E-Commerce &middot; WordPress &middot; Lifestyle Brands
       </p>
 
       <div
-        className={`mt-10 transition-all duration-700 delay-200 ${
-          isComplete ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
-        }`}
+        className="hero-fade-slide-up mt-10"
+        style={{ animationDelay: "0.7s" }}
       >
         <a
           href="#work"
@@ -53,9 +57,8 @@ export function Hero() {
 
       <a
         href="#about"
-        className={`mt-20 animate-bounce text-muted-foreground transition-colors hover:text-primary ${
-          isComplete ? "opacity-100" : "opacity-0"
-        }`}
+        className="hero-fade-slide-up mt-20 animate-bounce text-muted-foreground transition-colors hover:text-primary"
+        style={{ animationDelay: "1s" }}
         aria-label="Scroll down"
       >
         <ArrowDown className="h-5 w-5" />

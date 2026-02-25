@@ -17,7 +17,7 @@ export function Loader() {
 
   return (
     <div className="fixed inset-0 z-[99999] flex items-center justify-center bg-background">
-      <div className="animate-pulse font-mono text-5xl font-bold tracking-widest text-white">
+      <div className="animate-pulse text-5xl font-bold tracking-widest text-white">
         AF
       </div>
     </div>

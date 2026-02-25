@@ -44,7 +44,7 @@ export function Projects() {
           <p className="mb-3 text-sm font-medium uppercase tracking-widest text-primary">
             MY WORK
           </p>
-          <h2 className="font-mono text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-foreground md:text-4xl">
             Brands I've Worked With
           </h2>
         </div>
@@ -86,7 +86,7 @@ export function Projects() {
                 <span className="mb-3 inline-block rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-medium uppercase tracking-wider text-primary">
                   {project.category}
                 </span>
-                <h3 className="mb-2 font-mono text-xl font-semibold text-foreground">
+                <h3 className="mb-2 text-xl font-semibold text-foreground">
                   {project.title}
                 </h3>
                 <p className="text-sm leading-relaxed text-muted-foreground">

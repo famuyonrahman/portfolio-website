@@ -58,7 +58,7 @@ export function Contact() {
           <p className="mb-3 text-sm font-medium uppercase tracking-widest text-primary">
             {"Let's Connect"}
           </p>
-          <h2 className="font-mono text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-foreground md:text-4xl">
             Ready to Build Something Great?
           </h2>
           <p className="mt-4 text-lg leading-relaxed text-muted-foreground">

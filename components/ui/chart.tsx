@@ -233,7 +233,7 @@ function ChartTooltipContent({
                       </span>
                     </div>
                     {item.value && (
-                      <span className="text-foreground font-mono font-medium tabular-nums">
+                      <span className="text-foreground font-sans font-medium tabular-nums">
                         {item.value.toLocaleString()}
                       </span>
                     )}
@@ -323,24 +323,25 @@ function getPayloadConfigFromPayload(
 
   let configLabelKey: string = key
 
+  const payloadObj = payload as Record<string, unknown>
   if (
-    key in payload &&
-    typeof payload[key as keyof typeof payload] === 'string'
+    key in payloadObj &&
+    typeof payloadObj[key] === 'string'
   ) {
-    configLabelKey = payload[key as keyof typeof payload] as string
-  } else if (
-    payloadPayload &&
-    key in payloadPayload &&
-    typeof payloadPayload[key as keyof typeof payloadPayload] === 'string'
-  ) {
-    configLabelKey = payloadPayload[
-      key as keyof typeof payloadPayload
-    ] as string
+    configLabelKey = payloadObj[key] as string
+  } else if (payloadPayload) {
+    const ppObj = payloadPayload as Record<string, unknown>
+    if (
+      key in ppObj &&
+      typeof ppObj[key] === 'string'
+    ) {
+      configLabelKey = ppObj[key] as string
+    }
   }
 
   return configLabelKey in config
     ? config[configLabelKey]
-    : config[key as keyof typeof config]
+    : config[key]
 }
 
 export {

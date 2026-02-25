@@ -17,7 +17,7 @@ export function About() {
           <p className="mb-3 text-sm font-medium uppercase tracking-widest text-primary">
             About Me
           </p>
-          <h2 className="font-mono text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-foreground md:text-4xl">
             About Me
           </h2>
         </div>

@@ -1,18 +1,14 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter, Space_Grotesk } from 'next/font/google'
+import { Plus_Jakarta_Sans } from "next/font/google"
 import { Analytics } from '@vercel/analytics/next'
 import { Cursor } from '@/components/cursor'
 import { Loader } from '@/components/loader'
 import './globals.css'
 
-const _inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-})
-
-const _spaceGrotesk = Space_Grotesk({
-  subsets: ['latin'],
-  variable: '--font-space-grotesk',
+const plusJakartaSans = Plus_Jakarta_Sans({ 
+  subsets: ["latin"], 
+  weight: ["300", "400", "500", "600", "700", "800"],
+  variable: '--font-plus-jakarta-sans',
 })
 
 export const metadata: Metadata = {
@@ -35,8 +31,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${_inter.variable} ${_spaceGrotesk.variable}`} suppressHydrationWarning>
-      <body className="font-sans antialiased" suppressHydrationWarning>
+    <html lang="en" className={plusJakartaSans.variable} suppressHydrationWarning>
+      <body className={plusJakartaSans.className} suppressHydrationWarning>
         <Loader />
         <Cursor />
         {children}
