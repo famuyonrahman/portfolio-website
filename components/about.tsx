@@ -24,20 +24,8 @@ export function About() {
 
         <div className="space-y-5">
           <p className="text-lg leading-relaxed text-muted-foreground">
-            {"I'm Abdulrahman Famuyon, a website designer with hands-on experience building e-commerce stores and managing WordPress sites for lifestyle brands. I care about the details that matter, clean layouts, intuitive navigation, and designs that make people trust your brand the moment they land on the page. Whether you need an online store that converts or a brand website that tells your story, I bring the vision, the strategy, and the execution to make it happen."}
+            {"I'm Abdulrahman Famuyon, a website developer who builds websites that suit your needs. Whether you're a growing brand, a small business or an entrepreneur with a vision, I create clean, fast and functional websites tailored specifically to you. Every project I take on is built with purpose, designed to look great, perform well and deliver real results for your business."}
           </p>
-          <div className="flex flex-wrap gap-3 pt-2">
-            {["Shopify", "WordPress"].map(
-              (tag) => (
-                <span
-                  key={tag}
-                  className="rounded-full border border-border bg-secondary px-4 py-1.5 text-xs font-medium text-muted-foreground transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/50 hover:text-foreground"
-                >
-                  {tag}
-                </span>
-              )
-            )}
-          </div>
         </div>
       </div>
     </section>

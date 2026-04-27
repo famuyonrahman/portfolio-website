@@ -14,7 +14,7 @@ const projects = [
   },
   {
     title: "ONIYO",
-    category: "WORDPRESS / LIFESTYLE BRAND",
+    category: "BRAND WEBSITE",
     description: "A WordPress website for a creative agency that dreams, develops, and manages lifestyle and fashion brands across Nigeria.",
     image: "/oniyo.png",
     link: "https://oniyo.agency/",

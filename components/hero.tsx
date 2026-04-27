@@ -4,7 +4,7 @@ import { ArrowDown } from "lucide-react"
 import { useTypewriter } from "@/hooks/use-typewriter"
 
 export function Hero() {
-  const subheading = "I design websites that sell, inspire, and grow your brand."
+  const subheading = "I build websites that suit your needs, grow your brand and deliver real results."
   const { displayedText, isComplete } = useTypewriter(subheading, 35, 600)
 
   return (
@@ -40,7 +40,7 @@ export function Hero() {
         className="hero-fade-slide-up mt-5 text-sm tracking-wide text-muted-foreground/70"
         style={{ animationDelay: "0.5s" }}
       >
-        Website Designer &middot; E-Commerce &middot; WordPress &middot; Lifestyle Brands
+        Website Developer &middot; Clean Design &middot; Fast Performance &middot; Built For You
       </p>
 
       <div

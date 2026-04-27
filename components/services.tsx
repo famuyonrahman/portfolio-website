@@ -8,19 +8,19 @@ const services = [
     icon: ShoppingCart,
     title: "E-Commerce Store Design",
     description:
-      "Your products deserve more than a template. I build custom Shopify and WooCommerce stores with beautiful product pages, streamlined checkout flows, and a shopping experience that keeps customers coming back. Every detail is designed to reduce friction and increase average order value.",
+      "Your products deserve more than a template. I build custom online stores with beautiful product pages, streamlined checkout flows, and a shopping experience that keeps customers coming back. Every detail is built to reduce friction and increase average order value.",
   },
   {
     icon: Globe,
-    title: "WordPress Sites for Brands",
+    title: "Brand Websites",
     description:
-      "A website that looks incredible and is actually easy for your team to update. I build WordPress sites with clean, intuitive dashboards, lightning-fast page speeds, and SEO baked in from day one, so your brand shows up where it matters and stays current effortlessly.",
+      "A website that looks incredible and is actually easy for your team to update. I build sites that are clean, easy to update and fast. With lightning-fast page speeds and SEO baked in from day one, your brand shows up where it matters and stays current effortlessly.",
   },
   {
     icon: LayoutTemplate,
     title: "Landing Pages That Convert",
     description:
-      "Launching a new product, running a campaign, or building a waitlist? I design single-purpose landing pages that guide visitors toward one clear action, whether that is signing up, pre-ordering, or booking a call. No distractions, just results.",
+      "Launching a new product, running a campaign, or building a waitlist? I build single-purpose landing pages that guide visitors toward one clear action, whether that is signing up, pre-ordering, or booking a call. No distractions, just results.",
   },
 ]
 
@@ -41,11 +41,10 @@ export function Services() {
             How I Can Help
           </p>
           <h2 className="text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            Design That Works as Hard as You Do
+            What I Build For You
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            Every project starts with understanding your brand, your customers,
-            and what success looks like for you. Here{"'"}s what I bring to the table.
+            Every project starts with understanding your brand, your goals and what success looks like for you. Here{"'"}s what I can build.
           </p>
         </div>
 
