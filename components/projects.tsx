@@ -10,7 +10,7 @@ const projects = [
     category: "E-COMMERCE",
     description: "A body-inclusive fashion e-commerce store built to showcase and sell MOFE's clothing collections with a seamless shopping experience.",
     image: "/mofe.png",
-    link: "https://mofe151.bumpa.shop/",
+    link: "https://mofehq.co",
   },
   {
     title: "ONIYO",
