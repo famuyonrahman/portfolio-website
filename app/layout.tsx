@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Plus_Jakarta_Sans } from "next/font/google"
 import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import { Cursor } from '@/components/cursor'
 import { Loader } from '@/components/loader'
 import './globals.css'
@@ -37,6 +38,7 @@ export default function RootLayout({
         <Cursor />
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
