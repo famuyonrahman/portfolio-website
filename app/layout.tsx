@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description:
     'I build fast, clean websites and e-commerce stores for your brand or businness',
   openGraph: {
-    title: 'Abdulrahman Famuyon — Developer',
+    title: 'Abdulrahman Famuyon — Website Developer',
     description:
       'I build fast, clean websites and e-commerce stores for your brand or businness.',
     url: 'https://abdulrahmanfamuyon.vercel.app',
