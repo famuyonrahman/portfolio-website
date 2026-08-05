@@ -34,7 +34,7 @@ export function Projects() {
 
   return (
     <section id="work" className="py-28 px-6">
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto max-w-6xl text-center sm:text-left">
         <div
           ref={headerRef}
           className={`mb-16 text-center transition-all duration-700 ${
