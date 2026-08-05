@@ -12,13 +12,13 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Abdulrahman Famuyon | Website Designer',
+  title: 'Abdulrahman Famuyon | Website Developer',
   description:
-    'Website Designer specializing in E-Commerce and WordPress sites for lifestyle brands.',
+    'I build fast, clean websites and e-commerce stores for your brand or businness',
   openGraph: {
-    title: 'Abdulrahman Famuyon — Website Designer',
+    title: 'Abdulrahman Famuyon — Developer',
     description:
-      'I build fast, clean websites and e-commerce stores for lifestyle brands.',
+      'I build fast, clean websites and e-commerce stores for your brand or businness.',
     url: 'https://abdulrahmanfamuyon.vercel.app',
     siteName: 'Abdulrahman Famuyon',
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         url: '/spiceclubs.png',
         width: 1200,
         height: 630,
-        alt: 'Abdulrahman Famuyon — Website Designer',
+        alt: 'Abdulrahman Famuyon — Website Developer',
       },
     ],
     locale: 'en_US',
@@ -34,9 +34,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Abdulrahman Famuyon — Website Designer',
+    title: 'Abdulrahman Famuyon — Website Developer',
     description:
-      'I build fast, clean websites and e-commerce stores for lifestyle brands.',
+      'I build fast, clean websites and e-commerce stores for your brand or businness.',
     images: ['/spiceclubs.png'],
   },
   icons: {
