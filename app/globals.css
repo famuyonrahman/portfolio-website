@@ -153,3 +153,10 @@
 .hero-fade-slide-up {
   animation: fadeSlideUp 0.8s ease-out forwards;
 }
+
+/* Ensure main content is centered on small screens to avoid left-alignment issues */
+@media (max-width: 639px) {
+  main {
+    text-align: center;
+  }
+}
