@@ -157,6 +157,6 @@
 /* Ensure main content is centered on small screens to avoid left-alignment issues */
 @media (max-width: 639px) {
   main {
-    text-align: center;
+    text-align: center !important;
   }
 }
