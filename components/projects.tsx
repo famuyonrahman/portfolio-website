@@ -26,6 +26,13 @@ const projects = [
     image: "/tubo.png",
     link: "https://tubowoman.com/",
   },
+  {
+    title: "SpiceClub",
+    category: "BRAND WEBSITE",
+    description: "A creative community in Nigeria for creators, creatives,  and a space built for creative people.",
+    image: "/spiceclubs.png",
+    link: "https://spiceclub.house/",
+  },
 ]
 
 export function Projects() {
@@ -61,7 +68,7 @@ export function Projects() {
               {/* Large image area with hover overlay */}
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
-                  src={i === 0 ? "/mofe.png" : i === 1 ? "/oniyo.png" : "/tubo.png"}
+                  src={project.image}
                   alt={project.title}
                   fill
                   className="object-cover"
