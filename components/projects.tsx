@@ -22,7 +22,7 @@ const projects = [
   {
     title: "TUBO WOMAN",
     category: "E-COMMERCE",
-    description: "A clean fashion e-commerce store designed to display and sell Tubo Woman's curated collection of women's clothing and accessories.",
+    description: "A Clean fashion e-commerce store designed to display and sell Tubo Woman's curated collection of women's clothing and accessories.",
     image: "/tubo.png",
     link: "https://tubowoman.com/",
   },
