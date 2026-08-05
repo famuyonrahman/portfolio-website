@@ -6,18 +6,11 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 const projects = [
   {
-    title: "MOFE",
-    category: "E-COMMERCE",
-    description: "A body-inclusive fashion e-commerce store built to showcase and sell MOFE's clothing collections with a seamless shopping experience.",
-    image: "/mofe.png",
-    link: "https://mofehq.co",
-  },
-  {
-    title: "ONIYO",
+    title: "SpiceClub",
     category: "BRAND WEBSITE",
-    description: "A WordPress website for a creative agency that dreams, develops, and manages lifestyle and fashion brands across Nigeria.",
-    image: "/oniyo.png",
-    link: "https://oniyo.agency/",
+    description: "A creative community in Nigeria for creators, creatives,  and a space built for creative people.",
+    image: "/spiceclubs.png",
+    link: "https://spiceclub.house/",
   },
   {
     title: "TUBO WOMAN",
@@ -27,11 +20,18 @@ const projects = [
     link: "https://tubowoman.com/",
   },
   {
-    title: "SpiceClub",
+    title: "ONIYO",
     category: "BRAND WEBSITE",
-    description: "A creative community in Nigeria for creators, creatives,  and a space built for creative people.",
-    image: "/spiceclubs.png",
-    link: "https://spiceclub.house/",
+    description: "A WordPress website for a creative agency that dreams, develops, and manages lifestyle and fashion brands across Nigeria.",
+    image: "/oniyo.png",
+    link: "https://oniyo.agency/",
+  },
+  {
+    title: "MOFE",
+    category: "E-COMMERCE",
+    description: "A body-inclusive fashion e-commerce store built to showcase and sell MOFE's clothing collections with a seamless shopping experience.",
+    image: "/mofe.png",
+    link: "https://mofehq.co",
   },
 ]
 
